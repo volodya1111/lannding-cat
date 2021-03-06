@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+*{
+    font-family: Nunito;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    background-color: #2d2d2d;
+}
+
+.links{
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.links a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+.header{
+    background-image:url(cats/cat2.jpg);
+    padding: 350px 100px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header h1{
+    color: white;
+    font-size: 50px;
+    text-shadow: 2px 2px 10px black;
+}
+
+.facts, .gallery, .feedback{
+    padding: 50px 0;
+}
+
+
+.facts{
+    background-color: #2d2d2d;
+    color: white;
+    text-align: center;
+}
+
+.facts_list{
+    width: 25%;
+    margin: 0 auto;
+}
+
+.facts ul{
+    text-align: left;
+    margin-top: 20px;
+}
+
+.images img{
+    width: 30%;
+    margin-top: 30px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.images img:hover{
+    transform: scale(1.2);
+}
+
+.images{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.gallery h1{
+    text-align: center;
+    color: white;
+}
+
+.gallery{
+    background-color: #3d3d3d;
+}
+
+
+.transition{
+    background-image: url(cats/Group\ 2.svg);
+    padding: 100px 0;
+    background-color: transparent;
+    background-size: cover;
+}
+
+
+body{
+    background-color:#2d2d2d;
+}
+
+
+.feedback input{
+    display: block;
+    margin: 10px auto;
+    padding: 5px;
+}
+
+.feedback{
+    color: black;
+}
+form{
+    background-color: white;
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 10px;
+}
+
+input[type=checkbox]{
+    display: inline-block;
+    margin: 0;
+}
+
+
+.feedback button{
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: #2d2d2d;
+    color: #7d7d7d;
+    transition: 0.3s;
+}
+
+
+.feedback-desk *{
+    margin: 10px 0;
+}
+
+.feedback-data input{
+    width: 60%;
+    border-radius: 5px;
+    border: 1px solid #9d9d9d;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.feedback-submit input, 
+.feedback-submit label{
+    margin: 10px 0;
+}
+
+.feedback button:hover{
+    color: white;
+}
+
+.feedback-data input:focus{
+    outline:none;
+    border: 1px solid #7d7d7d;
+    box-shadow: 0 0 10px -3px #2d2d2d;
+}
+
+.feedback-submit a{
+    color: #3d3d3d;
+}
+
+
+.feedback-desk{
+    color: #3d3d3d;
+}
+
+
+.feedback-data, 
+.feedback-desk,
+.feedback-submit{
+    margin: 15px 0;
+}
